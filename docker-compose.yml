@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  ecommerceservice:
+    build:
+      context: .
+      dockerfile: ECommerceMicroservice.Dockerfile
+    ports:
+      - "5365:80"  # set port
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    volumes:
+      - .:/App
