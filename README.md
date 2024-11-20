@@ -19,8 +19,8 @@ This project has been created to implement a simple e-commerce microservice arch
 ### Cloning the Project
 
 ```bash
-git clone https://git.codebie.com/tg-workshop/4U8v9HNL2RapHA7g.git
-cd 4U8v9HNL2RapHA7g
+gh repo clone tahakocal/E-Commerce-Service-Architecture-Demo
+cd E-Commerce-Service-Architecture-Demo
 ```
 
 ### Installing Packages
